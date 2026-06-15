@@ -1,7 +1,5 @@
 # AI Production System
 
-# AI Production System
-
 Production-ready AI assistant using RAG, LangChain, LangGraph, MCP adapters, observability, Docker, and Kubernetes.
 
 ## Objective
