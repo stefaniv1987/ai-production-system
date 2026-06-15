@@ -1,4 +1,3 @@
-
 langchain
 langchain-openai
 langchain-chroma
@@ -10,3 +9,5 @@ openai
 python-dotenv
 langgraph
 pypdf
+pydantic
+requests
