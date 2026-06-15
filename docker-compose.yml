@@ -1,1 +1,12 @@
+version: "3.9"
 
+services:
+  ai-production-system:
+    build: .
+    container_name: ai-production-system
+    ports:
+      - "8000:8000"
+    environment:
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+    volumes:
+      - ./chroma_db:/app/chroma_db
