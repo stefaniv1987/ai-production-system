@@ -1,1 +1,12 @@
 
+langchain
+langchain-openai
+langchain-chroma
+langchain-community
+chromadb
+fastapi
+uvicorn
+openai
+python-dotenv
+langgraph
+pypdf
