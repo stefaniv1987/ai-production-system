@@ -38,7 +38,23 @@ User Question
 - Kubernetes
 - LangSmith / Arize AI
 
+- ## Observability Metrics
+
+- Latency
+- Throughput
+- Token Usage
+- Hallucination Rate
+- Retrieval Accuracy
+- Error Rate
+
 ## How to Run
+
+## Security
+
+- JWT/OAuth authentication
+- Environment variables
+- MCP controlled access
+- Secret management
 
 ```bash
 docker-compose up --build
