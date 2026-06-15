@@ -1,1 +1,19 @@
-
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ai-production-system
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ai-production-system
+  template:
+    metadata:
+      labels:
+        app: ai-production-system
+    spec:
+      containers:
+      - name: ai-production-system
+        image: ai-production-system:latest
+        ports:
+        - containerPort: 8000
